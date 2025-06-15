@@ -21,3 +21,9 @@ terraform destroy -auto-approve
 ```
 terraform fmt
 ```
+
+# to pass variables in command line we will use below format syntax
+
+```
+terrafrom apply -var "variable name = value" -auto-approve
+```

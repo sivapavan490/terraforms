@@ -4,6 +4,7 @@
 2.terrafrom.tfvars file
 3.environmental variables
 4.default values
+5.user prompt
 
 How to give varaible value in cmd line in below syntax
 

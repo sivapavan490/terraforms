@@ -1,6 +1,6 @@
 
 
-# It will intailize the reuired plugins to according to provider.
+# It will intailize the required plugins to according to provider.
 ```
 terraform init
 ```

@@ -22,3 +22,12 @@ users--->specify user details{enter the username}--->set permmisions(attach admi
 ```
 aws configure
 ```
+
+
+presedence for terraform variables.
+
+1.cmd line
+2. tfvars files
+3.environmental variables
+4.default values
+5. user prompt

@@ -1,0 +1,35 @@
+
+# to create any resource we use below syntax
+
+resource "resource type" "resource name"{
+
+}
+
+#default variable syntax
+
+variable "var-name"{
+    type = #data-type
+    default = "default value"
+}
+
+#To pass variables in user prompt we will use variable syntax in below format.
+
+variable "var-name"{
+    # here the varaible ask its value via user prompt.
+}
+
+# to pass the variable value in cmd line we will use below format
+
+terrafrom apply -var "variable name = value" -auto-approve  # here the varaible value  we are passing in cmd line.
+
+# condition syntax in terrafrom
+
+expression ? "this runs if true" : "this runs if false"
+
+Loops:-
+
+In terrafrom Loops are 3 types. they are :-
+
+    1. count based Loops
+    2. for each Loops
+    3. dynamic blocks

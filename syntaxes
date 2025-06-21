@@ -54,6 +54,9 @@ INTERPOLAATION :-
 Interpolation syntax 
     "${}"
 
+LOCALS :-
+
+Locals are used to run the expressions or functions and save the results to variables.
 
 FUNCTIONS :-
 1.

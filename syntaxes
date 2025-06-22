@@ -78,9 +78,18 @@ PROVISIONERS :-
 
 * PROVISIONERS are used to take some action either locally or remote when terraform created servers. 
 
+* provisioners will create a "SELF" keyword for representation.
+
+* creation of resources at that time only provisioners are working.
+
+
+* provisioners are 2 methods they are creating provisioner and destroying provisioner.
+* By default provisioners run when the resources are defined within is created. creation time provisioners are only run during creation,not during updating or any life cycle.
+
 * They are 2 types of provisioners .They are :- 
-        1. Local-exec
-        2. Remote- exec
+        1. Local-exec provisioner #laptop or 
+        2. Remote- exec provisioner # inside the server
+
 
 Local-exec:-
 * when terraform cmd is running that is local

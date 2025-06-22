@@ -31,11 +31,22 @@ Loops:-
 In terrafrom Loops are 3 types. they are :-
 
     1. count based Loops ---> Iterate over list type of variables.
-    2. for each Loops
-    3. dynamic blocks
+    2. for each Loops  ---> use it to iterate maps
+    3. dynamic blocks  ---> use it ito create multiple blocks inside a resource.
 
-count based loops :-
-    To create multiple same resources we are using count based loops in terrafrom.
+count based loops:-
+    * we will use count based loops to create multiple same type of resources in terraform.
+
+
+
+
+Dynamic blocks:-
+    * Dynamic blocks are used to create multiple blocks inside a resource.
+
+
+FOR-EACH LOOP :-
+
+* In for each loop terraform will give a variable called "each" variable.
 
 
 
@@ -57,6 +68,30 @@ Interpolation syntax
 LOCALS :-
 
 Locals are used to run the expressions or functions and save the results to variables.
+* Locals can't over-riden.
+* Locals can store expressions.
+* Locals can refer other local variables. 
+* Locals dont have each acess. Each acess will be used with in that block only.
+
+
+PROVISIONERS :- 
+
+* PROVISIONERS are used to take some action either locally or remote when terraform created servers. 
+
+* They are 2 types of provisioners .They are :- 
+        1. Local-exec
+        2. Remote- exec
+
+Local-exec:-
+* when terraform cmd is running that is local
+
+remote-exec:-
+* inside the server created by terraform
+
+
+
+fo-each loop ----> each.key or each.value
+provisioners ----> self
 
 FUNCTIONS :-
 1.

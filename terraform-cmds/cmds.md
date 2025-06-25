@@ -27,3 +27,32 @@ terraform fmt
 ```
 terrafrom apply -var "variable name = value" -auto-approve
 ```
+
+# To change the backend configuration we will use below cmd
+```
+terraform init -reconfigure -backend-config=PATH
+```
+
+# Terraform workspace cmd
+
+```
+terraform workspace
+```
+
+# To create new workspace
+```
+terraform workspace new workspacename
+```
+ex:- terraform workspace new dev
+
+# To know how many workspaces are available list
+```
+terraform workspace list
+```
+# To switch from 1 workspace to Another workspace we use below cmd
+
+```
+terraform workspace select workspace name
+```
+
+ex:- terraform workspace select dev

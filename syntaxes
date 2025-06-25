@@ -72,6 +72,7 @@ Locals are used to run the expressions or functions and save the results to vari
 * Locals can store expressions.
 * Locals can refer other local variables. 
 * Locals dont have each acess. Each acess will be used with in that block only.
+* in locals we dont keep count.index
 
 
 PROVISIONERS :- 
